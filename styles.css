@@ -1,0 +1,50 @@
+/* Gaya untuk kontainer berita */
+.news-container {
+    display: flex; /* Menggunakan Flexbox untuk tata letak */
+    flex-direction: column; /* Mengatur arah konten menjadi kolom */
+    margin: 20px; /* Margin kontainer */
+}
+
+/* Gaya untuk setiap item berita */
+.news-item {
+    border: 1px solid #ddd; /* Border untuk setiap berita */
+    border-radius: 5px; /* Sudut melengkung */
+    padding: 15px; /* Ruang dalam item berita */
+    margin-bottom: 20px; /* Jarak antar item berita */
+    background-color: #f9f9f9; /* Warna latar belakang */
+    transition: box-shadow 0.3s; /* Animasi saat hover */
+}
+
+/* Gaya untuk gambar berita */
+.news-image {
+    width: 100%; /* Lebar gambar penuh */
+    height: auto; /* Tinggi otomatis untuk menjaga proporsi */
+    border-radius: 5px; /* Sudut melengkung gambar */
+}
+
+/* Gaya saat hover pada item berita */
+.news-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+}
+
+/* Gaya untuk link */
+a {
+    text-decoration: none; /* Menghilangkan garis bawah */
+    color: #4CAF50; /* Warna teks link */
+}
+
+/* Gaya link saat hover */
+a:hover {
+    color: #45a049; /* Warna saat hover */
+}
+
+/* Gaya untuk judul berita */
+.news-item h3 {
+    margin: 0; /* Menghilangkan margin default */
+    font-size: 1.5em; /* Ukuran font untuk judul */
+}
+
+/* Gaya untuk informasi penulis dan tanggal */
+.news-item p {
+    margin: 5px 0; /* Margin atas dan bawah untuk paragraf */
+}
